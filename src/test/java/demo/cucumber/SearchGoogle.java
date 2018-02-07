@@ -5,7 +5,7 @@ import cucumber.api.java.en.When;
 import cucumber.api.java.en.Then;
 
 public class SearchGoogle {
-  @Given("^Enter search term 'Cucumber'$")
+  @Given("^Enter search term$")
   public void given() throws Throwable {
 	  System.out.println("Enter cucumber");
   }
@@ -15,7 +15,7 @@ public class SearchGoogle {
 	  System.out.println("Search");
   }
 
-  @Then("^Results are shown for 'Cucumber'$")
+  @Then("^Results are shown for$")
   public void then() throws Throwable {
 	  System.out.println("Verify results");
   }
