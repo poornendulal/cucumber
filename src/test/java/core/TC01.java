@@ -1,5 +1,7 @@
 package core;
 
+import cucumber.api.Scenario;
+
 public class TC01 {
 	public static void main(String[] args) {
 		System.setProperty("webdriver.ie.driver",
@@ -19,6 +21,8 @@ public class TC01 {
 		System.setProperty("webdriver.ie.driver",
 				"C:\\Users\\IBM_ADMIN\\eclipse-workspace\\cucumber\\cucumber\\drivers\\IEDriverServer.exe");
 		Initialize init = new Initialize("google.com");
+		
+		
 	}
 	public void entersearch()
 	{
