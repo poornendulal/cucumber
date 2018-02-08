@@ -1,4 +1,0 @@
-firstline1
-firstline
-hi
-hi
