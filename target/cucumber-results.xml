@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="6.513342">
-<testcase classname="search google" name="direct search page" time="6.513342">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="7.611149">
+<testcase classname="search google" name="direct search page" time="7.611149">
 <system-out><![CDATA[Given Enter search term.....................................................passed
 When Do search..............................................................passed
 Then Results are shown for..................................................passed

@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 189118,
+              "duration": 197733,
               "status": "passed"
             },
             "match": {
@@ -26,7 +26,7 @@
               "entered search text"
             ],
             "result": {
-              "duration": 4697491750,
+              "duration": 5716418284,
               "status": "passed"
             },
             "line": 3,
@@ -41,7 +41,7 @@
               "searched"
             ],
             "result": {
-              "duration": 1492955059,
+              "duration": 1550356164,
               "status": "passed"
             },
             "line": 4,
@@ -56,7 +56,7 @@
               "verified"
             ],
             "result": {
-              "duration": 307584069,
+              "duration": 328803809,
               "status": "passed"
             },
             "line": 5,
