@@ -1,9 +1,14 @@
 package core;
 
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
 import cucumber.api.Scenario;
 
 public class TC01 {
 	public static void main(String[] args) {
+		DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer();
+		capabilities.setCapability(InternetExplorerDriver.IGNORE_ZOOM_SETTING, true);
 		System.setProperty("webdriver.ie.driver",
 				"C:\\Users\\IBM_ADMIN\\eclipse-workspace\\cucumber\\cucumber\\drivers\\IEDriverServer.exe");
 		char operation[] = { 'i', 'b' ,'v'};
