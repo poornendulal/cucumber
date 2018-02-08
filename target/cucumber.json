@@ -1,0 +1,78 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 189118,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchGoogle.before(Scenario)"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "direct search page",
+        "description": "",
+        "id": "search-google;direct-search-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "output": [
+              "entered search text"
+            ],
+            "result": {
+              "duration": 4697491750,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Enter search term",
+            "match": {
+              "location": "SearchGoogle.given()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "searched"
+            ],
+            "result": {
+              "duration": 1492955059,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Do search",
+            "match": {
+              "location": "SearchGoogle.when()"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "verified"
+            ],
+            "result": {
+              "duration": 307584069,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Results are shown for",
+            "match": {
+              "location": "SearchGoogle.then()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "search google",
+    "description": "",
+    "id": "search-google",
+    "keyword": "Feature",
+    "uri": "src/test/java/demo.feature"
+  }
+]

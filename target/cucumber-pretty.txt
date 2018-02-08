@@ -1,0 +1,9 @@
+Feature: search google
+
+  Scenario: direct search page [90m# src/test/java/demo.feature:2[0m
+entered search text
+    [32mGiven [0m[32mEnter search term[0m    [90m# SearchGoogle.given()[0m
+searched
+    [32mWhen [0m[32mDo search[0m             [90m# SearchGoogle.when()[0m
+verified
+    [32mThen [0m[32mResults are shown for[0m [90m# SearchGoogle.then()[0m
