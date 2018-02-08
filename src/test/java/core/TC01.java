@@ -7,14 +7,13 @@ import cucumber.api.Scenario;
 
 public class TC01 {
 	public static void main(String[] args) {
-		DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer();
-		capabilities.setCapability(InternetExplorerDriver.IGNORE_ZOOM_SETTING, true);
-		System.setProperty("webdriver.ie.driver",
-				"C:\\Users\\IBM_ADMIN\\eclipse-workspace\\cucumber\\cucumber\\drivers\\IEDriverServer.exe");
+
+		//System.setProperty("webdriver.ie.driver",
+		//		"C:\\Users\\IBM_ADMIN\\eclipse-workspace\\cucumber\\cucumber\\drivers\\IEDriverServer.exe");
 		char operation[] = { 'i', 'b' ,'v'};
 		String control[] = { "lst-ib", "btnK","resultStats" };
 		String testdata[] = { "cucumber","seconds" };
-		Initialize init = new Initialize("google.com");
+		Initialize init = new Initialize("http://www.google.com");
 
 		Automation automate = new Automation();
 		automate.run(Initialize.driver, operation, control, testdata);
@@ -25,7 +24,7 @@ public class TC01 {
 	{
 		System.setProperty("webdriver.ie.driver",
 				"C:\\Users\\IBM_ADMIN\\eclipse-workspace\\cucumber\\cucumber\\drivers\\IEDriverServer.exe");
-		Initialize init = new Initialize("google.com");
+		Initialize init = new Initialize("http://www.google.com");
 		
 		
 	}
